@@ -1,0 +1,7 @@
+name: 'dbt_snowflake_demo'
+version: '1.0'
+profile: 'snowflake_demo'
+
+source-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_modules"]
